@@ -26,4 +26,3 @@ export function findDistance(destinations) {
 // https://maps.googleapis.com/maps/api/distancematrix/json?key=AIzaSyAvFCJKgy7K2teHQaBBT9pECX1_HcrY-E0&origins=47.6062,-122.3321&destinations=37.7749,-122.4194&mode=driving&language=en=EN&sensor=false
 
 // // 'https://www.google.com/maps/dir/?api=1&destination=' . $address
-

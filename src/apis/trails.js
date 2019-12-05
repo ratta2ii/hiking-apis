@@ -5,7 +5,7 @@ export function findTrails(){
     let request = new XMLHttpRequest();
 
     const endPoint = "https://www.hikingproject.com/data/get-trails?";
-    let url = `${endPoint}lat=47.6062&lon=-122.3321&maxDistance=10&key=${API_KEY}&maxResults=10&sort=distance`;
+    let url = `${endPoint}lat=47.6062&lon=-122.3321&maxDistance=10&key=${API_KEY}&maxResults=3`;
 
     request.onload = function() {
       if (this.status === 200) {
@@ -26,7 +26,7 @@ export function findTrails(){
 
 
 
-
+// Add this back &sort=distance
 
 // maxDistance - Max distance, in miles, from lat, lon. Default: 30. Max: 200.
 
